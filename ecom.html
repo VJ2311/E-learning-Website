@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ecom.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo"><a href="#"></a> </div>
+      <li class="fivi">FIVI</li>
+    
+      <div class="search-box">
+        
+       <input class="search" type="text" placeholder="What do you want to learn?">
+       <i class='bx bx-search' ></i>
+    
+    </div>
+      <ul>
+       
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <button><a href="loginpage.html">Sign in</a></button>
+       
+      </ul>
+    </div>
+  </nav>
+
+    <div class="container">
+
+      
+        <div class="title">See what you can learn with FIVI</div>
+        <div class="listProduct">
+          
+        </div>
+    </div>
+    <script>
+        let products = null;
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data;
+                addDataToHTML();
+        })
+
+        function addDataToHTML(){
+        let listProductHTML = document.querySelector('.listProduct');
+        if(products != null) 
+        {
+            products.forEach(product => {
+                let newProduct = document.createElement('a');
+                newProduct.href = '/detail.html?id=' + product.id;
+                newProduct.classList.add('item');
+                newProduct.innerHTML = 
+                `<img src="${product.image}" alt="">
+                <h2>${product.name}</h2>
+                <div class="price">&#8377;${product.price}</div> <button class="buynow">buy now</button>`;
+                listProductHTML.appendChild(newProduct);
+
+            });
+        }
+    }
+
+    </script>
+</body>
+</html>

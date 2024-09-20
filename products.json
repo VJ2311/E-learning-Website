@@ -1,0 +1,65 @@
+[
+  {
+    "id":1,
+    "name": "Google AI Essentials",
+    "price":500,
+    "image":"img/1.png",
+    "description":"•Use generative AI tools to help develop ideas and content, make more informed decisions, and speed up daily work tasks.\n•Use AI responsibly by identifying AI’s potential biases and avoiding harm.\n•Write clear and specific prompts to get the output you want - you’ll apply prompting techniques to help summarize, create tag lines, and more."
+    
+
+
+  },
+  {
+    "id":2,
+    "name":"Navigating Generative AI: A CEO Playbook",
+    "price":1000,
+    "image":"img/2.png",
+    "description":"•A practical overview of GenAI’s capabilities, limitations, and where it may be heading.\n•How to enable your organization to use GenAI to create customer value and boost productivity.\n•How to use GenAI as a thought partner to set strategy, improve decision-making, analyze competition, and communicate more effectively."
+
+  },
+  {
+    "id":3,
+    "name":"IBM Data Science Professional Certificate",
+    "price":1559,
+    "image":"img/3.png",
+    "description":"•Master the most up-to-date practical skills and knowledge that data scientists use in their daily roles.\n•Import and clean data sets, analyze and visualize data, and build machine learning models and pipelines.\n•Learn the tools, languages, and libraries used by professional data scientists, including Python and SQL."
+  },
+  {
+    "id":4,
+    "name":"Microsoft Cybersecurity Analyst Professional Certificate",
+    "price":2999,
+    "image":"img/4.png",
+    "description":"•Understand the cybersecurity landscape and learn core concepts foundational to security, compliance, and identity solutions.\n•Develop and implement threat mitigation strategies by applying effective cybersecurity measures within an Azure environment\n•Understand the vulnerabilities of an organizations network and mitigate attacks on network infrastructures to protect data."
+   
+  },
+  {
+    "id":5,
+    "name":"Python for Everybody Specialization",
+    "price":2799,
+    "image":"img/5.png",
+    "description":"•Learn in-demand skills from university and industry experts\n•Master a subject or tool with hands-on projects\n•Develop a deep understanding of key concepts\n•Earn a career certificate from University of Michigan"
+  },
+  {
+    "id":6,
+    "name":"Prompt Engineering Specialization",
+    "price":999,
+    "image":"img/6.png",
+    "description":"•Learn in-demand skills from university and industry experts.\n•Master a subject or tool with hands-on projects.\n•Develop a deep understanding of key concepts.\n•Earn a career certificate from Vanderbilt University"
+
+  },
+  {
+    "id":7,
+    "name":"Introduction to Programming with Python and Java Specialization",
+    "price":1495,
+    "image":"img/7.png",
+    "description":"•Describe core Python programming concepts, including how to configure tools for Python code and write fully functional programs using data structures.\n•Apply core principles of object-oriented programming and Java to write fully functional programs using classes and methods, and perform unit testing.\n•Examine core data science techniques and concepts using Python, including using data analysis libraries and developing data visualization skills."
+  },
+  {
+    "id":8,
+    "name":"The Structured Query Language (SQL)",
+    "price":695,
+    "image":"img/8.png",
+    "description":"•The origins and historical basis for SQL.\n•How to code SQL queries in order to analyze data stored in relational databases.\n•Standard SQL  use and syntax. "
+  }
+  
+]
